@@ -1,0 +1,20 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Файл с секретами (ключ GigaChat) — НИКОГДА не должен попасть в гит!
+.env
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Кэш Pytest
+.pytest_cache/
+.coverage
+
+# Настройки IDE (VS Code, PyCharm)
+.vscode/
+.idea/
